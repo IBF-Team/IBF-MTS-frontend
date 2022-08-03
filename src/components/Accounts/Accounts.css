@@ -1,0 +1,223 @@
+.create-account {
+    display: inline-block;
+    width: 400px;
+    /* height: 550px; */
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    left: 20%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.to-sign-in {
+    display: inline-block;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 43%;
+    right: 20%;
+    border-radius: 25px;
+}
+
+.sign-in-button {
+    background-color: #f7a642;
+    border: none;
+    text-align: center;
+    padding: 4px 71px;
+    border-radius: 10px;
+    color: #217ec0;
+}
+
+.create-account-button {
+    background-color: #217ec0;
+    border: none;
+    text-align: center;
+    align-items: center;
+    width: 212px;
+    height: 40px;
+    border-radius: 10px;
+    color: #f7a642;
+    margin-top: 8px;
+}
+
+.create-account-input {
+    background-color: #f7a642;
+    border-radius: 5px;
+    border: none;
+    color: #112848;
+    width: 208px;
+    /* height: 10px; */
+}
+
+.invite-box {
+    display: inline-block;
+    width: 275px;
+    /* height: 200px; */
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    top: 20%;
+    left: 15%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.role-box {
+    display: inline-block;
+    width: 275px;
+    /* height: 200px; */
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    top: 20%;
+    right: 15%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.delete-box {
+    display: inline-block;
+    width: 275px;
+    /* height: 200px; */
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    bottom: 20%;
+    right: 15%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.auth-box {
+    display: inline-block;
+    width: 275px;
+    /* height: 200px; */
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    bottom: 20%;
+    left: 15%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.divide {
+    border-left: 3px solid #f7a642;
+    height: 75%;
+    position:absolute;
+    left: 50%;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.delete-popup {
+    position: relative;
+    width: 325px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #217ec0;
+    bottom: 200px;
+    right: 25px;
+    color: #f7a642;
+}
+
+.delete-popup-inner {
+    text-align: center;
+
+}
+
+.delete-popup-button {
+    background-color: #112848;
+    border: none;
+    width: 50px;
+    height: 25px;
+    color: #f7a642;
+    border-radius: 5px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.delete-account-popup-button {
+    background-color: #112848;
+    border: none;
+    text-align: center;
+    width: 212px;
+    height: 25px;
+    border-radius: 10px;
+    color: #f7a642;
+    margin-top: 8px;
+}
+
+.request-code {
+    align-items: center;
+    margin-top: 100px;
+}
+
+.request-code-button {
+    background-color: #f7a642;
+    border: none;
+    text-align: center;
+    padding: 4px 25px;
+    border-radius: 10px;
+    color: #217ec0;
+    margin: auto;
+}
+
+.edit-password-box {
+    display: inline-block;
+    width: 275px;
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    top: 20%;
+    left: 40%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.edit-region-box {
+    display: inline-block;
+    width: 275px;
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    bottom: 15%;
+    left: 40%;
+    border-radius: 25px;
+    text-align: center;
+    color: #217ec0;
+}
+
+.delete-account-box {
+    display: inline-block;
+    width: 275px;
+    position: fixed;
+    margin: auto;
+    bottom: 5%;
+    left: 40%;
+    text-align: center;
+    color: #217ec0;
+}
+

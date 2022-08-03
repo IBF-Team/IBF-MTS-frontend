@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+}
+
+.login-button {
+    background-color: #f7a642;
+    color: #217ec0;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.create-account-button {
+    background-color: #f7a642;
+    color: #217ec0;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin-left: 20px;
+}

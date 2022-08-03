@@ -1,0 +1,76 @@
+.Round-header {
+    background-color: rgb(208, 219, 249);
+}
+
+.react-icons {
+    vertical-align: middle;
+    padding: 10;
+  }
+
+.Rtable {
+    table-layout: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+td {
+  border: 0.5px solid black;
+  overflow: hidden;
+  font-size: small;
+  white-space: nowrap;
+}
+
+
+#Courtroom {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 25px;
+    font-size: small;
+}
+#Side {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 20px;
+    font-size: small;
+}
+#Judge {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 45px;
+    font-size: small;
+}
+#Link {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 30px;
+    font-size: small;
+}
+#Zoom-Link {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 60px;
+    font-size: small;
+}
+
+#Team {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 70px;
+    font-size: small;
+}
+#inner-table{
+    border: 0px;
+}
+
+#table-line-height {
+    line-height: 25px ;
+}
+
+#Zoom-link-text {
+    font-size: x-small;
+    overflow: hidden;
+}
+hr.solid{
+    border-top: 1px solid black;
+}

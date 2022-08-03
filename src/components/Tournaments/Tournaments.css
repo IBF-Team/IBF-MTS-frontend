@@ -1,0 +1,32 @@
+.react-icons {
+    vertical-align: middle;
+    padding: 10;
+    cursor: pointer;
+  }
+
+ul.a {
+    list-style-type: disc;
+}
+
+button {
+  background-color: #f7a642;
+  color: #217ec0;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center',
+}
+
+input {
+  border-radius: 0.5rem;
+  border: 0.05rem solid #217ec0;
+  color: #217ec0;
+  text-decoration: none;
+  /* text-align: center; */
+  padding: 5px;
+  font-size: 1rem;
+}

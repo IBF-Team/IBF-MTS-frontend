@@ -1,0 +1,96 @@
+.App {
+  text-align: left;
+
+  height: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.IBF-logo {
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  color: #217ec0;
+  height: 80px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: border-box;
+
+}
+
+.centered {
+  text-align: center;
+  width: 100%;
+}
+.right {
+  float: right;
+  width: 200px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.home {
+  color: #f7a642;
+}
+
+.home-button {
+  width: 200px;
+  height: 100px;
+  background-color: #112848;
+  color: #f7a642;
+  border-color: white;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+.back-to-home {
+  background-color: #f7a642;
+  color: #217ec0;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #217ec0;
+  color: #f7a642;
+}
+
+.edit-judge-button {
+  background-color: #f7a642;
+  color: #217ec0;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 75px;
+}

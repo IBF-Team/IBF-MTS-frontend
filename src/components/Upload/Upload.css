@@ -1,0 +1,42 @@
+button {
+    background-color: #f7a642;
+    color: #217ec0;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  input[type=file]{
+    width: 30%;
+    margin: 2%;
+  }
+
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Select File (.csv or .xls or .xlsx)';
+    display: inline-block;
+    background: #f7a642;
+    border: 0.05rem solid #217ec0;
+    border-radius: 0.5rem;
+    padding: 10px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    /* font-weight: 700; */
+    font-size: 1rem;
+  }
+  .custom-file-input:hover::before {
+    /* border-color: black; */
+    background-color: #217ec0;
+    color: #f7a642;
+  }
+  .custom-file-input:active::before {
+    /* background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); */
+    border: 0.15rem solid #f7a642;
+  }

@@ -1,0 +1,117 @@
+.react-icons {
+    vertical-align: middle;
+    padding: 10;
+  }
+
+.Rtable {
+    table-layout: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+td {
+  border: 0.5px solid black;
+  overflow: hidden;
+  font-size: small;
+  white-space: nowrap;
+}
+
+
+#Courtroom {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 25px;
+    font-size: small;
+}
+#Side {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 20px;
+    font-size: small;
+}
+#Judge {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 45px;
+    font-size: small;
+}
+#Link {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 30px;
+    font-size: small;
+}
+#Zoom-Link {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 60px;
+    font-size: small;
+}
+
+#Team {
+    border: 0.5px solid black;
+    overflow: hidden;
+    width: 70px;
+    font-size: small;
+}
+#inner-table{
+    border: 0px;
+}
+
+#table-line-height {
+    line-height: 25px ;
+}
+
+#Zoom-link-text {
+    font-size: x-small;
+    overflow: hidden;
+}
+hr.solid{
+    border-top: 1px solid black;
+}
+
+.edit-judges-box {
+    display: inline-block;
+    width: 275px;
+    height: 200px;
+    position: fixed;
+    margin: auto;
+    top: 20%;
+    left: 40%;
+    border-radius: 25px;
+    text-align: left;
+    color: #f7a642;
+}
+
+.delete-popup {
+    position: relative;
+    width: 325px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #217ec0;
+    bottom: 200px;
+    right: 25px;
+    color: #f7a642;
+}
+
+.delete-popup-inner {
+    text-align: center;
+
+}
+
+.delete-popup-button {
+    background-color: #112848;
+    border: none;
+    width: 50px;
+    height: 25px;
+    color: #f7a642;
+    border-radius: 5px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
